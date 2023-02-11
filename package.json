@@ -1,0 +1,34 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Martin Georgiev & Kaloyan Petkov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "chart.js": "^4.1.1",
+    "chartjs": "^0.3.24",
+    "cron": "^2.2.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "sequelize": "^6.28.0",
+    "stripe": "^11.8.0",
+    "validator": "^13.7.0"
+  }
+}
